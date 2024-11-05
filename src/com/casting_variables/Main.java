@@ -10,5 +10,8 @@ public class Main {
         int number2 = Integer.parseInt(number_string_2);
 
         System.out.println("The amount is = " + (number + number2));
+        
+        Integer number_integer = 100;
+        System.out.println("number_integer.toString() = " + number_integer.toString());
     }
 }
