@@ -20,6 +20,7 @@ public class Books {
         this.release_date = release_date;
     }
 
+    // book name
     public String getBook_name() {
         return book_name;
     }
@@ -28,6 +29,7 @@ public class Books {
         this.book_name = book_name;
     }
 
+    // autor
     public String getAutor() {
         return autor;
     }
@@ -36,6 +38,7 @@ public class Books {
         this.autor = autor;
     }
 
+    // status
     public Boolean getStatus() {
         return status;
     }
@@ -44,6 +47,7 @@ public class Books {
         this.status = status;
     }
 
+    // price
     public Double getPrice() {
         return price;
     }
@@ -52,6 +56,7 @@ public class Books {
         this.price = price;
     }
 
+    // release date
     public String getRelease_date() {
         return release_date;
     }
@@ -60,6 +65,7 @@ public class Books {
         this.release_date = release_date;
     }
 
+    // output
     @Override
     public String toString() {
         return "Books {\n" +

@@ -14,13 +14,13 @@ public class Main {
 
         System.out.println("book = " + book);
 
-        System.out.println("---------------------------------");
+        System.out.println("\n---------------------------------\n");
 
         // get
         Books book_2 = new Books("Libro 2", "User 2", false, 19.99, "2 Enero 2001");
         System.out.println("book_2 = " + book_2);
 
-        System.out.println("---------------------------------");
+        System.out.println("\n---------------------------------\n");
 
         // test
         System.out.println(book_2.getBook_name());
