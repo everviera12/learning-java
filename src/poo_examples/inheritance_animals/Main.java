@@ -6,11 +6,15 @@ public class Main {
         Dog dog = new Dog("Firulais", "Male");
         Cat cat = new Cat("Michi", "Female");
 
+        // polimorfism
+        Animal dog_animal = new Dog("Firulais", "Male");
+        Animal cat_animal = new Cat("Michi", "Female");
+
         System.out.println("cat = " + cat);
-        cat.MakeNoise("Miau miau!");
+        dog_animal.MakeNoise("Miau miau!");
 
 
         System.out.println("dog = " + dog);
-        dog.MakeNoise("Wof wof!");
+        cat_animal.MakeNoise("Wof wof!");
     }
 }
